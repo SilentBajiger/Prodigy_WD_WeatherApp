@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="card">
+      <div id="input">
+        <input type="text" placeholder="Enter City Name" id="inputcity" />
+        <button id="search">
+          <i class="fa-solid fa-magnifying-glass fa-fade"></i>
+        </button>
+      </div>
+      <div id="temp">
+        <div id="weather">
+          <h1>Weather : <span id="weathervalue"> - - </span></h1>
+          <p>description : <span id="description"> - - </span></p>
+        </div>
+        <h1 id="tempvalue"><span> - - </span></h1>
+      </div>
+      <div id="details">
+        <div id="region">
+          <h1 id="city">- -</h1>
+          <p>Country: <span id="country"> - - </span></p>
+        </div>
+        <div id="dt">
+          <span id="date"> - - </span> <span id="time"> - - </span>
+        </div>
+        <div id="extra">
+          <p id="maxtemp">Maxtemp: <span id="maxtempvalue"> - - </span></p>
+          <p id="mintemp">Mintemp: <span id="mintempvalue"> - - </span></p>
+          <p id="wind">Windspeed: <span id="windvalue"> - - </span></p>
+        </div>
+      </div>
+    </div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
